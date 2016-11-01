@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	. "gopkg.in/check.v1"
-	. "gopkg.in/src-d/go-git.v4/utils/fs"
+	. "github.com/StupidHod/go-git/utils/fs"
 )
 
 func Test(t *testing.T) { TestingT(t) }

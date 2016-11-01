@@ -6,13 +6,13 @@ import (
 	"os"
 	"testing"
 
-	"gopkg.in/src-d/go-git.v4/clients"
-	"gopkg.in/src-d/go-git.v4/clients/common"
-	"gopkg.in/src-d/go-git.v4/core"
-	"gopkg.in/src-d/go-git.v4/fixtures"
-	"gopkg.in/src-d/go-git.v4/formats/packfile"
-	"gopkg.in/src-d/go-git.v4/formats/packp"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
+	"github.com/StupidHod/go-git/clients"
+	"github.com/StupidHod/go-git/clients/common"
+	"github.com/StupidHod/go-git/core"
+	"github.com/StupidHod/go-git/fixtures"
+	"github.com/StupidHod/go-git/formats/packfile"
+	"github.com/StupidHod/go-git/formats/packp"
+	"github.com/StupidHod/go-git/storage/filesystem"
 
 	. "gopkg.in/check.v1"
 )

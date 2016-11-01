@@ -8,8 +8,8 @@ import (
 	"io"
 	"strings"
 
-	"gopkg.in/src-d/go-git.v4/clients/common"
-	"gopkg.in/src-d/go-git.v4/formats/packp/advrefs"
+	"github.com/StupidHod/go-git/clients/common"
+	"github.com/StupidHod/go-git/formats/packp/advrefs"
 
 	"golang.org/x/crypto/ssh"
 )

@@ -4,11 +4,11 @@ import (
 	"errors"
 	"fmt"
 
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/core"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
-	osfs "gopkg.in/src-d/go-git.v4/utils/fs/os"
+	"github.com/StupidHod/go-git/config"
+	"github.com/StupidHod/go-git/core"
+	"github.com/StupidHod/go-git/storage/filesystem"
+	"github.com/StupidHod/go-git/storage/memory"
+	osfs "github.com/StupidHod/go-git/utils/fs/os"
 )
 
 var (

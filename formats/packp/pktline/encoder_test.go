@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"gopkg.in/src-d/go-git.v4/formats/packp/pktline"
+	"github.com/StupidHod/go-git/formats/packp/pktline"
 
 	. "gopkg.in/check.v1"
 )

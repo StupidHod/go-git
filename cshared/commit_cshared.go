@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"unsafe"
 
-	"gopkg.in/src-d/go-git.v4"
-	"gopkg.in/src-d/go-git.v4/core"
+	"github.com/StupidHod/go-git"
+	"github.com/StupidHod/go-git/core"
 )
 
 //export c_Commit_get_Hash

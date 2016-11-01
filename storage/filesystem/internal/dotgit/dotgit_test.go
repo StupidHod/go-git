@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"gopkg.in/src-d/go-git.v4/core"
-	"gopkg.in/src-d/go-git.v4/fixtures"
-	osfs "gopkg.in/src-d/go-git.v4/utils/fs/os"
+	"github.com/StupidHod/go-git/core"
+	"github.com/StupidHod/go-git/fixtures"
+	osfs "github.com/StupidHod/go-git/utils/fs/os"
 
 	. "gopkg.in/check.v1"
 )

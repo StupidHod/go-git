@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"strings"
 
-	"gopkg.in/src-d/go-git.v4/core"
-	"gopkg.in/src-d/go-git.v4/formats/packp"
-	"gopkg.in/src-d/go-git.v4/formats/packp/advrefs"
-	"gopkg.in/src-d/go-git.v4/formats/packp/pktline"
+	"github.com/StupidHod/go-git/core"
+	"github.com/StupidHod/go-git/formats/packp"
+	"github.com/StupidHod/go-git/formats/packp/advrefs"
+	"github.com/StupidHod/go-git/formats/packp/pktline"
 
 	. "gopkg.in/check.v1"
 )

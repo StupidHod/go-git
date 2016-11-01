@@ -6,7 +6,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"gopkg.in/src-d/go-git.v4/core"
+	"github.com/StupidHod/go-git/core"
 )
 
 // Read reads structured binary data from r into data. Bytes are read and

@@ -5,7 +5,7 @@ import (
 	"io"
 	"testing"
 
-	"gopkg.in/src-d/go-git.v4/clients/common"
+	"github.com/StupidHod/go-git/clients/common"
 
 	. "gopkg.in/check.v1"
 )

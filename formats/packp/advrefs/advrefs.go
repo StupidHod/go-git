@@ -3,8 +3,8 @@
 package advrefs
 
 import (
-	"gopkg.in/src-d/go-git.v4/core"
-	"gopkg.in/src-d/go-git.v4/formats/packp"
+	"github.com/StupidHod/go-git/core"
+	"github.com/StupidHod/go-git/formats/packp"
 )
 
 const (

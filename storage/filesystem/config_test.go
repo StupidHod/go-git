@@ -4,10 +4,10 @@ import (
 	"io/ioutil"
 	stdos "os"
 
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/fixtures"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem/internal/dotgit"
-	"gopkg.in/src-d/go-git.v4/utils/fs/os"
+	"github.com/StupidHod/go-git/config"
+	"github.com/StupidHod/go-git/fixtures"
+	"github.com/StupidHod/go-git/storage/filesystem/internal/dotgit"
+	"github.com/StupidHod/go-git/utils/fs/os"
 
 	. "gopkg.in/check.v1"
 )

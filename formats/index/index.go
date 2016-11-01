@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"gopkg.in/src-d/go-git.v4/core"
+	"github.com/StupidHod/go-git/core"
 )
 
 var (

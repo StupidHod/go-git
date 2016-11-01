@@ -16,9 +16,9 @@ package clients
 import (
 	"fmt"
 
-	"gopkg.in/src-d/go-git.v4/clients/common"
-	"gopkg.in/src-d/go-git.v4/clients/http"
-	"gopkg.in/src-d/go-git.v4/clients/ssh"
+	"github.com/StupidHod/go-git/clients/common"
+	"github.com/StupidHod/go-git/clients/http"
+	"github.com/StupidHod/go-git/clients/ssh"
 )
 
 type GitUploadPackServiceFactory func(common.Endpoint) common.GitUploadPackService

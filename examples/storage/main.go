@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"gopkg.in/src-d/go-git.v4"
-	"gopkg.in/src-d/go-git.v4/examples/storage/aerospike"
+	"github.com/StupidHod/go-git"
+	"github.com/StupidHod/go-git/examples/storage/aerospike"
 
 	driver "github.com/aerospike/aerospike-client-go"
 	"github.com/fatih/color"

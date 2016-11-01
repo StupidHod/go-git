@@ -7,7 +7,7 @@ import (
 	"io"
 
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-git.v4/core"
+	"github.com/StupidHod/go-git/core"
 )
 
 type SuiteWriter struct{}

@@ -9,8 +9,8 @@ import (
 	"os"
 	"strings"
 
-	"gopkg.in/src-d/go-git.v4/core"
-	"gopkg.in/src-d/go-git.v4/utils/fs"
+	"github.com/StupidHod/go-git/core"
+	"github.com/StupidHod/go-git/utils/fs"
 )
 
 const (

@@ -3,7 +3,7 @@ package config
 import (
 	"strings"
 
-	"gopkg.in/src-d/go-git.v4/core"
+	"github.com/StupidHod/go-git/core"
 )
 
 const (

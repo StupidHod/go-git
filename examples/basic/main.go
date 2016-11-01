@@ -6,7 +6,7 @@ import (
 
 	"github.com/fatih/color"
 
-	"gopkg.in/src-d/go-git.v4"
+	"github.com/StupidHod/go-git"
 )
 
 func main() {

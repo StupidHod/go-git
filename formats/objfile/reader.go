@@ -6,8 +6,8 @@ import (
 	"io"
 	"strconv"
 
-	"gopkg.in/src-d/go-git.v4/core"
-	"gopkg.in/src-d/go-git.v4/formats/packfile"
+	"github.com/StupidHod/go-git/core"
+	"github.com/StupidHod/go-git/formats/packfile"
 )
 
 var (

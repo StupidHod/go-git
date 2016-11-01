@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"golang.org/x/crypto/ssh"
-	"gopkg.in/src-d/go-git.v4/clients/http"
-	gssh "gopkg.in/src-d/go-git.v4/clients/ssh"
+	"github.com/StupidHod/go-git/clients/http"
+	gssh "github.com/StupidHod/go-git/clients/ssh"
 )
 
 //export c_NewBasicAuth

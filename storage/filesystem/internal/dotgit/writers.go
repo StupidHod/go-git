@@ -5,11 +5,11 @@ import (
 	"io"
 	"sync/atomic"
 
-	"gopkg.in/src-d/go-git.v4/core"
-	"gopkg.in/src-d/go-git.v4/formats/idxfile"
-	"gopkg.in/src-d/go-git.v4/formats/objfile"
-	"gopkg.in/src-d/go-git.v4/formats/packfile"
-	"gopkg.in/src-d/go-git.v4/utils/fs"
+	"github.com/StupidHod/go-git/core"
+	"github.com/StupidHod/go-git/formats/idxfile"
+	"github.com/StupidHod/go-git/formats/objfile"
+	"github.com/StupidHod/go-git/formats/packfile"
+	"github.com/StupidHod/go-git/utils/fs"
 )
 
 type PackWriter struct {

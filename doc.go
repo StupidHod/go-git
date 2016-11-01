@@ -32,4 +32,4 @@
 //    	fmt.Println(commit)
 //    }
 //  }
-package git // import "gopkg.in/src-d/go-git.v4"
+package git // import "github.com/StupidHod/go-git"

@@ -15,9 +15,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"gopkg.in/src-d/go-git.v4"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
-	"gopkg.in/src-d/go-git.v4/utils/fs"
+	"github.com/StupidHod/go-git"
+	"github.com/StupidHod/go-git/storage/filesystem"
+	"github.com/StupidHod/go-git/utils/fs"
 )
 
 func main() {

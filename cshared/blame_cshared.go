@@ -4,7 +4,7 @@ package main
 import (
 	"C"
 
-	"gopkg.in/src-d/go-git.v4"
+	"github.com/StupidHod/go-git"
 )
 
 //export c_Blame_get_Path

@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"time"
 
-	"gopkg.in/src-d/go-git.v4/core"
+	"github.com/StupidHod/go-git/core"
 
 	. "gopkg.in/check.v1"
 )

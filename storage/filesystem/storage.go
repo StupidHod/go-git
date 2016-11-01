@@ -2,10 +2,10 @@
 package filesystem
 
 import (
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/core"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem/internal/dotgit"
-	"gopkg.in/src-d/go-git.v4/utils/fs"
+	"github.com/StupidHod/go-git/config"
+	"github.com/StupidHod/go-git/core"
+	"github.com/StupidHod/go-git/storage/filesystem/internal/dotgit"
+	"github.com/StupidHod/go-git/utils/fs"
 )
 
 type Storage struct {

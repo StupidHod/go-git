@@ -9,9 +9,9 @@ import (
 	"github.com/alcortesm/tgz"
 
 	"gopkg.in/check.v1"
-	"gopkg.in/src-d/go-git.v4/core"
-	"gopkg.in/src-d/go-git.v4/utils/fs"
-	osfs "gopkg.in/src-d/go-git.v4/utils/fs/os"
+	"github.com/StupidHod/go-git/core"
+	"github.com/StupidHod/go-git/utils/fs"
+	osfs "github.com/StupidHod/go-git/utils/fs/os"
 )
 
 var RootFolder = ""
@@ -234,7 +234,7 @@ type Suite struct{}
 func (s *Suite) SetUpSuite(c *check.C) {
 	RootFolder = filepath.Join(
 		build.Default.GOPATH,
-		"src", "gopkg.in/src-d/go-git.v4", "fixtures",
+		"src", "github.com/StupidHod/go-git", "fixtures",
 	)
 }
 

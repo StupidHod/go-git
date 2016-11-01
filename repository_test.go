@@ -1,9 +1,9 @@
 package git
 
 import (
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/core"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	"github.com/StupidHod/go-git/config"
+	"github.com/StupidHod/go-git/core"
+	"github.com/StupidHod/go-git/storage/memory"
 
 	. "gopkg.in/check.v1"
 )

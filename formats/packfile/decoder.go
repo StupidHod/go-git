@@ -3,7 +3,7 @@ package packfile
 import (
 	"bytes"
 
-	"gopkg.in/src-d/go-git.v4/core"
+	"github.com/StupidHod/go-git/core"
 )
 
 // Format specifies if the packfile uses ref-deltas or ofs-deltas.

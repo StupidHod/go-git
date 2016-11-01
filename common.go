@@ -4,8 +4,8 @@ import (
 	"io"
 	"strings"
 
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/core"
+	"github.com/StupidHod/go-git/config"
+	"github.com/StupidHod/go-git/core"
 )
 
 // Storage storage of objects and references

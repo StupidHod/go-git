@@ -4,8 +4,8 @@ import (
 	"io"
 	"time"
 
-	"gopkg.in/src-d/go-git.v4/core"
-	"gopkg.in/src-d/go-git.v4/fixtures"
+	"github.com/StupidHod/go-git/core"
+	"github.com/StupidHod/go-git/fixtures"
 
 	. "gopkg.in/check.v1"
 )

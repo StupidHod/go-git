@@ -1,6 +1,6 @@
 package idxfile
 
-import "gopkg.in/src-d/go-git.v4/core"
+import "github.com/StupidHod/go-git/core"
 
 const (
 	// VersionSupported is the only idx version supported.

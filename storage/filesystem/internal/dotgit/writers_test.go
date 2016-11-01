@@ -8,8 +8,8 @@ import (
 	"os"
 	"strconv"
 
-	"gopkg.in/src-d/go-git.v4/fixtures"
-	osfs "gopkg.in/src-d/go-git.v4/utils/fs/os"
+	"github.com/StupidHod/go-git/fixtures"
+	osfs "github.com/StupidHod/go-git/utils/fs/os"
 
 	. "gopkg.in/check.v1"
 )

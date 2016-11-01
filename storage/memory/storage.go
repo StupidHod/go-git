@@ -4,8 +4,8 @@ package memory
 import (
 	"fmt"
 
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/core"
+	"github.com/StupidHod/go-git/config"
+	"github.com/StupidHod/go-git/core"
 )
 
 var ErrUnsupportedObjectType = fmt.Errorf("unsupported object type")

@@ -8,7 +8,7 @@ import (
 	"io"
 	"time"
 
-	"gopkg.in/src-d/go-git.v4/utils/binary"
+	"github.com/StupidHod/go-git/utils/binary"
 )
 
 var (

@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"strings"
 
-	"gopkg.in/src-d/go-git.v4/clients/common"
-	"gopkg.in/src-d/go-git.v4/core"
-	"gopkg.in/src-d/go-git.v4/formats/packp/pktline"
+	"github.com/StupidHod/go-git/clients/common"
+	"github.com/StupidHod/go-git/core"
+	"github.com/StupidHod/go-git/formats/packp/pktline"
 	"crypto/tls"
 )
 
@@ -25,7 +25,7 @@ type GitUploadPackService struct {
 // auth is extracted from the URL, or can be provided using the SetAuth method
 func NewGitUploadPackService(endpoint common.Endpoint) common.GitUploadPackService {
 
-	c := http.Client{Transport: &http.Transport{
+	c := &http.Client{Transport: &http.Transport{
 		TLSClientConfig: &tls.Config{InsecureSkipVerify: true},
 	}}
 

@@ -5,8 +5,8 @@ import (
 	"io"
 	"io/ioutil"
 
-	"gopkg.in/src-d/go-git.v4"
-	"gopkg.in/src-d/go-git.v4/core"
+	"github.com/StupidHod/go-git"
+	"github.com/StupidHod/go-git/core"
 )
 
 //export c_File_get_Name

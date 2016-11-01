@@ -6,7 +6,7 @@ import (
 	"path"
 	"path/filepath"
 
-	"gopkg.in/src-d/go-git.v4/utils/fs"
+	"github.com/StupidHod/go-git/utils/fs"
 )
 
 // OS a filesystem base on the os filesystem

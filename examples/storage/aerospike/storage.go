@@ -6,8 +6,8 @@ import (
 	"io"
 	"io/ioutil"
 
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/core"
+	"github.com/StupidHod/go-git/config"
+	"github.com/StupidHod/go-git/core"
 
 	driver "github.com/aerospike/aerospike-client-go"
 )

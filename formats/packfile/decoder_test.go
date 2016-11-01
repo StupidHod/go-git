@@ -4,10 +4,10 @@ import (
 	"io"
 	"testing"
 
-	"gopkg.in/src-d/go-git.v4/core"
-	"gopkg.in/src-d/go-git.v4/fixtures"
-	"gopkg.in/src-d/go-git.v4/formats/idxfile"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	"github.com/StupidHod/go-git/core"
+	"github.com/StupidHod/go-git/fixtures"
+	"github.com/StupidHod/go-git/formats/idxfile"
+	"github.com/StupidHod/go-git/storage/memory"
 
 	. "gopkg.in/check.v1"
 )

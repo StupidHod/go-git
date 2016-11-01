@@ -1,9 +1,9 @@
 package filesystem
 
 import (
-	"gopkg.in/src-d/go-git.v4/core"
-	"gopkg.in/src-d/go-git.v4/fixtures"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem/internal/dotgit"
+	"github.com/StupidHod/go-git/core"
+	"github.com/StupidHod/go-git/fixtures"
+	"github.com/StupidHod/go-git/storage/filesystem/internal/dotgit"
 
 	. "gopkg.in/check.v1"
 )

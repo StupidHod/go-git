@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"gopkg.in/src-d/go-git.v4/clients/common"
-	"gopkg.in/src-d/go-git.v4/core"
+	"github.com/StupidHod/go-git/clients/common"
+	"github.com/StupidHod/go-git/core"
 )
 
 // HTTPAuthMethod concrete implementation of common.AuthMethod for HTTP services

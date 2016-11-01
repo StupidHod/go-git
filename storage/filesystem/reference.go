@@ -1,8 +1,8 @@
 package filesystem
 
 import (
-	"gopkg.in/src-d/go-git.v4/core"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem/internal/dotgit"
+	"github.com/StupidHod/go-git/core"
+	"github.com/StupidHod/go-git/storage/filesystem/internal/dotgit"
 )
 
 type ReferenceStorage struct {

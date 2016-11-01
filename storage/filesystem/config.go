@@ -3,9 +3,9 @@ package filesystem
 import (
 	"os"
 
-	"gopkg.in/src-d/go-git.v4/config"
-	gitconfig "gopkg.in/src-d/go-git.v4/formats/config"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem/internal/dotgit"
+	"github.com/StupidHod/go-git/config"
+	gitconfig "github.com/StupidHod/go-git/formats/config"
+	"github.com/StupidHod/go-git/storage/filesystem/internal/dotgit"
 )
 
 const (
