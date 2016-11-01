@@ -11,6 +11,7 @@ import (
 	"gopkg.in/src-d/go-git.v4/clients/common"
 	"gopkg.in/src-d/go-git.v4/core"
 	"gopkg.in/src-d/go-git.v4/formats/packp/pktline"
+	"crypto/tls"
 )
 
 // GitUploadPackService git-upoad-pack service over HTTP
@@ -23,8 +24,13 @@ type GitUploadPackService struct {
 // NewGitUploadPackService connects to a git-upload-pack service over HTTP, the
 // auth is extracted from the URL, or can be provided using the SetAuth method
 func NewGitUploadPackService(endpoint common.Endpoint) common.GitUploadPackService {
+
+	c := http.Client{Transport: &http.Transport{
+		TLSClientConfig: &tls.Config{InsecureSkipVerify: true},
+	}}
+
 	s := &GitUploadPackService{
-		client:   http.DefaultClient,
+		client:   c,
 		endpoint: endpoint,
 	}
 
